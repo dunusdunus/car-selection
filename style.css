@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  /* margin-left: 335px;
+  margin-right: 335px; */
+}
+
+.header {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 10px 0 0 10px;
+}
+
+.header__phone {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.phone-number {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.phone-number:hover {
+  color: #747070;
+}
+
+.main__header {
+  margin-top: 115px;
+  margin-left: 77px;
+}
+
+.main__title {
+  width: 533px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.main__title span {
+  font-weight: 400;
+}
+
+.main__form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  position: relative;
+}
+
+.main__form-text {
+  margin-bottom: 20px;
+  width: 320px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.main__form-img {
+  width: 16px;
+  height: 15px;
+  position: absolute;
+  top: 63px;
+  left: 15px;
+}
+
+.main__form::before {
+  content: "+7";
+  position: absolute;
+  top: 54px;
+  left: 47px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.main__form-input {
+  width: 320px;
+  height: 60px;
+  padding-left: 78px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-bottom: 14px;
+}
+
+.main__form-checkbox {
+  display: flex;
+  width: 320px;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main__checkbox_input {
+  width: 20px;
+  border-radius: 5px;
+  accent-color: green;
+  cursor: pointer;
+}
+
+.main__checkbox_input-text,
+.main__checkbox_input-text a {
+  color: #000;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.main__form-btn {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  width: 320px;
+  border: none;
+  border-radius: 10px;
+  background: #2cc9b8;
+  margin-top: 25px;
+  padding: 20px 0 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.main__form-btn:hover {
+  background: #247a72;
+}
+
+.main__content {
+  display: flex;
+  align-items: center;
+}
+
+.car-img {
+  position: absolute;
+  top: 234px;
+  left: 645px;
+}
+
+.main__choiser {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.choiser__sell {
+  display: flex;
+  align-items: center;
+  background-color: #8ed74f;
+  width: 50vw;
+  height: 286px;
+}
+
+.choiser__text {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.choiser__text:hover {
+  text-decoration: underline;
+}
+
+.choiser__PTS {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #27242d;
+  width: 50vw;
+  height: 286px;
+}
+
+.main__content-footer {
+  margin-top: 70px;
+}
+
+.main__content-footer > button {
+  display: block;
+  margin: 100px auto;
+}
+
+.main__content-text {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.card-list {
+  display: flex;
+  list-style: none;
+  margin-top: 130px;
+  gap: 97px;
+}
+
+.card-item {
+  width: 240px;
+}
+
+.card-item__img-circle {
+  width: 97px;
+  height: 97px;
+  background-color: rgb(39, 36, 45);
+  border-radius: 50%;
+}
+
+.card-item__img1 {
+  margin: 17px 16px 23px 28px;
+}
+
+.card-item__img2 {
+  margin: 22px 21px 22px 21px;
+}
+
+.card-item__img3 {
+  margin: 26px 22px 26px 21px;
+}
+
+.card-item__img4 {
+  margin: 25px 25px 26px 26px;
+}
+
+.card-item__header {
+  margin-top: 43px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.card-item__header::first-letter {
+  color: rgb(142, 215, 79);
+}
+
+.card-item__header-text {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: center;
+  color: #000;
+}
+
+.footer__links-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  display: flex;
+  padding-left: 411px;
+  gap: 9px;
+}
+
+.social__links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
